@@ -36,4 +36,9 @@ Note that the programs that need to be written to accomplish the project are src
 Results
 ---
 
+After setting up the environment and finishing up the coding, the particle filter created was able to pass the criterias of the project.
 
+The error displayed in the simulator is as follows
+
+Error | x | y | yaw |
+Value|0.114|0.108|0.004|
