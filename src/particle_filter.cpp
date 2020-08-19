@@ -55,7 +55,7 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
   
   is_initialized = true;
 
-  cout<<"Init pass"<<endl;
+  //cout<<"Init pass"<<endl;
 
 }
 
@@ -98,7 +98,7 @@ void ParticleFilter::prediction(double delta_t, double std_pos[],
     particles[i].theta += dist_theta(gen);
   }
   
-   cout << "Prediction pass" << endl;
+   //cout << "Prediction pass" << endl;
 }
 
 void ParticleFilter::dataAssociation(vector<LandmarkObs> predicted, 
@@ -223,7 +223,7 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
      }
    }
 
-   cout << "Update Pass" << endl;
+   //cout << "Update Pass" << endl;
 }
 
 void ParticleFilter::resample() {
@@ -263,7 +263,7 @@ void ParticleFilter::resample() {
    }
 
    particles = resampled_p;
-   cout << "Resample pass" << endl;
+   //cout << "Resample pass" << endl;
 }
 
 void ParticleFilter::SetAssociations(Particle& particle, 
