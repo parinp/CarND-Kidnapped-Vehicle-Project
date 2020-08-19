@@ -41,4 +41,5 @@ After setting up the environment and finishing up the coding, the particle filte
 The error displayed in the simulator is as follows
 
 Error | x | y | yaw |
+:---:|:---:|:---:|:---:|
 Value|0.114|0.108|0.004|
